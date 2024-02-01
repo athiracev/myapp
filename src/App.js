@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Student from './Student.js'
+
+
 
 function App() {
+  const name ="Anu"
+  const valid = false
+  const place="enter your name"
   return (
+    <>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <h1 style={{backgroundColor:"orange",color:"white", border:"5px solid brown"}} >Hello welcome to react!!!</h1>
+     
+        
       </header>
     </div>
+    <div>
+      <label htmlFor="inp">Name <input type="text" id='inp' placeholder={place} className='main' /></label>
+      <h1>{name}</h1>
+      <h2>{valid?"valid":"invalid"}</h2>
+      <Student/>
+    </div>
+    </>
+    
   );
 }
 
