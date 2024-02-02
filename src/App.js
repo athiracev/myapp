@@ -1,5 +1,6 @@
 import './App.css'
-import Student from './Student.js'
+// import Student from './Student.js'
+import  Company from './Company.jsx'
 
 
 
@@ -21,7 +22,8 @@ function App() {
       <label htmlFor="inp">Name <input type="text" id='inp' placeholder={place} className='main' /></label>
       <h1>{name}</h1>
       <h2>{valid?"valid":"invalid"}</h2>
-      <Student/>
+      {/* <Student/> */}
+      <Company/>
     </div>
     </>
     
