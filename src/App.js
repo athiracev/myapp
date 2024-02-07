@@ -24,6 +24,7 @@ function App() {
       <h2>{valid?"valid":"invalid"}</h2>
       {/* <Student/> */}
       <Company/>
+      
     </div>
     </>
     
