@@ -1,6 +1,6 @@
 import Employee from "./Employee"
 import Work from "./Work"
-import Message from './Message.jsx'
+import Message from "./Message"
 
 import style from './style.module.css'
 
@@ -18,6 +18,7 @@ function Company() {
                 <h1><i><s>COMPANY!!!</s></i></h1>
                 <Employee dept={empdept} />
                 <Work status={workstatus} workers={workers} />
+                <br />
                 <Message />
 
             </div>
